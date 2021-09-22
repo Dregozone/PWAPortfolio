@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17bb96f7-1327-4e60-b826-b24e96995a92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/shared.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/shared.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UVzONlxd7NFgYUiqDDfbbDGuhJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ander\Google Drive\MScComputerScience\Y1\S1\WebPrincipals\Assignment2\AndreasLearmonthPortfolio\styles" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17bb96f7-1327-4e60-b826-b24e96995a92" name="Default Changelist" comment="" />
+      <created>1575456517446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575456517446</updated>
+      <workItem from="1575456521242" duration="58000" />
+      <workItem from="1575456671038" duration="2224000" />
+      <workItem from="1575464086823" duration="999000" />
+      <workItem from="1575465703490" duration="5517000" />
+      <workItem from="1575565275356" duration="6488000" />
+      <workItem from="1575838037545" duration="372000" />
+      <workItem from="1575838494940" duration="476000" />
+      <workItem from="1576020043289" duration="683000" />
+      <workItem from="1576085746032" duration="6484000" />
+      <workItem from="1576096671459" duration="1030000" />
+      <workItem from="1576421893671" duration="5527000" />
+      <workItem from="1576443079650" duration="6723000" />
+      <workItem from="1576515699123" duration="5768000" />
+      <workItem from="1576617982747" duration="4503000" />
+      <workItem from="1576656287003" duration="5837000" />
+      <workItem from="1576862928134" duration="8090000" />
+      <workItem from="1576886193806" duration="1563000" />
+      <workItem from="1577000775260" duration="7925000" />
+      <workItem from="1577013641518" duration="7372000" />
+      <workItem from="1577361849694" duration="950000" />
+      <workItem from="1577448162849" duration="17225000" />
+      <workItem from="1577469185220" duration="7895000" />
+      <workItem from="1577622984647" duration="1625000" />
+      <workItem from="1577704102885" duration="9062000" />
+      <workItem from="1577745012747" duration="167000" />
+      <workItem from="1577745977469" duration="2674000" />
+      <workItem from="1577807350812" duration="105000" />
+      <workItem from="1577808186220" duration="2176000" />
+      <workItem from="1577894296117" duration="10125000" />
+      <workItem from="1578043542427" duration="4318000" />
+      <workItem from="1578048846080" duration="5000" />
+      <workItem from="1578049202236" duration="742000" />
+      <workItem from="1578138332844" duration="2204000" />
+      <workItem from="1578228316747" duration="3525000" />
+      <workItem from="1578421669868" duration="283000" />
+      <workItem from="1578592568825" duration="660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578047235430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047235430" />
+  </component>
+</project>

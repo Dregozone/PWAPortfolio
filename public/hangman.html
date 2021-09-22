@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Skills - Andreas Learmonth Portfolio</title>
+
+        <meta name="description" content="Free Web tutorials" />
+        <meta name="keywords" content="andreas,learmonth,portfolio,hangman,game,developer,software,html,css,javascript" />
+        <meta name="author" content="Andreas Learmonth" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/webmanifest.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+
+        <meta name="msapplication-TileColor" content="#2b5797" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- Custom web font -->
+        <link href="styles/roboto.css" rel="stylesheet" />
+
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="styles/shared.css" />
+        <link rel="stylesheet" type="text/css" href="styles/hangman.css" />
+    </head>
+    <body>
+
+    <section class="grid-container">
+        <header>
+            <section class="flex-container-header">
+                <article class="logo">
+                    <picture>
+                        <source srcset="Logo.webp" class="logo">
+                        <img src="Logo.jpg" alt="Logo" class="logo">
+                    </picture>
+                </article>
+
+                <article class="title">
+                    <h2 class="title">
+                        Andreas Learmonth
+                    </h2>
+                </article>
+            </section>
+        </header>
+
+        <nav>
+            <a href="index.html" class="navLink">Home</a> |
+            <a href="experience.html" class="navLink">Experience</a> |
+            <a href="skills.html" class="navLink">Skills</a> |
+            <a href="contact.html" class="navLink">Contact</a>
+        </nav>
+
+        <article class="pageTitle">
+            <h2 class="pageTitle">
+                Hangman
+            </h2>
+        </article>
+
+        <noscript>You must enable Javascript to enjoy this game!</noscript>
+
+        <section class="main">
+            <section id="blocker" class="blocker" onclick="hideRules();"></section>
+            <section id="popup"   class="popup">
+
+                <h1 class="rulesTitle">Rules</h1>
+                <h1 class="rulesClose" onclick="hideRules();">&times;</h1>
+
+                <p>
+                    You must guess alphabetic characters to reveal each letter of the phrase. Each incorrect guess
+                    is one step closer to hanging the man. Correctly guess all letters to win the game!
+                </p>
+
+                <p>
+                    Guess a letter by typing it on the keyboard.
+                    Entering a non-unique guess will not be counted but you will be asked to guess again.
+                </p>
+
+                <p>
+                    Press the "Restart game" button to generate a new phrase.
+                </p>
+
+                <p>
+                    If you get stuck... hover over the hangman to reveal one missing letter
+                </p>
+            </section>
+
+            <section class="game">
+                <picture class="images">
+                    <source srcset="images/hangman/0.jpg" id="gameStageSource">
+                    <img src="images/hangman/0.jpg" alt="Hangman Stage" id="gameStageImg" class="gameStage">
+                </picture>
+
+                <aside class="rules">
+                    <button id="rulesButton" class="actionButton" onclick="showRules();">
+                        View rules
+                    </button>
+                </aside>
+
+                <article class="guesses">
+                    <button id="restart" class="actionButton" onclick="gameStart();">
+                        Start game
+                    </button>
+
+                    <p id="dashes">
+                        <!-- Contains words replaced with dashes -->
+                    </p>
+
+                    <p id="letters">
+                        <!-- Contains previously guessed letters -->
+                    </p>
+
+                    <p id="gameAlerts">
+                        <!-- Game related alerts to the user -->
+                    </p>
+
+                    <section class="highscores" id="highscores">
+                        <table class="highscores">
+                            <tr>
+                                <th colspan="2">High Scores</th>
+                            </tr>
+                            <tr>
+                                <th>Rank    </th>
+                                <th>Points  </th>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td id="hs1"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td id="hs2"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td id="hs3"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td id="hs4"></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td id="hs5"></td>
+                            </tr>
+                        </table>
+                    </section>
+                </article>
+            </section>
+        </section>
+
+        <footer>
+            <section class="flex-container-footer">
+                <article class="footerItem">
+                    Email:
+                    <a href="mailto:aclearmonth@gmail.com">
+                        aclearmonth@gmail.com
+                    </a>
+                </article>
+                <article class="footerItem">
+                    Phone:
+                    <a href="tel:00447850996371">
+                        07850 996371
+                    </a>
+                </article>
+                <article class="footerItem">
+                    <!-- [Social Media] -->
+                    <a href="https://www.facebook.com/anders.learmonth" target="_blank" rel="noreferrer">
+                        <picture>
+                            <source srcset="images/facebook.jpg" class="socialMedia">
+                            <img src="images/facebook.jpg" alt="Facebook" class="socialMedia">
+                        </picture>
+                    </a>
+
+                    <a href="https://www.instagram.com/dregozone/" target="_blank" rel="noreferrer">
+                        <picture>
+                            <source srcset="images/instagram.jpg" class="socialMedia">
+                            <img src="images/instagram.jpg" alt="Instagram" class="socialMedia">
+                        </picture>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/andreas-learmonth-982318a1/" target="_blank" rel="noreferrer">
+                        <picture>
+                            <source srcset="images/linkedin.jpg" class="socialMedia">
+                            <img src="images/linkedin.jpg" alt="LinkedIn" class="socialMedia">
+                        </picture>
+                    </a>
+                </article>
+            </section>
+
+            <section class="copyright">
+                &copy; Copyright 2019
+            </section>
+        </footer>
+    </section>
+
+    <script>
+        //check whether browser support service workers
+        if ('serviceWorker' in navigator) {
+            //wait until page loaded to avoid delaying rendering
+            window.addEventListener('load', function() {
+                //register service worker
+                navigator.serviceWorker.register('serviceworker.js').then(
+                    function(registration) {
+                        console.log('Service worker registration successful',
+                            registration);
+                    },
+                    function(err) {
+                        console.log('Service worker registration failed', err);
+                    });
+            });
+        }
+    </script>
+
+    <!-- <script type="text/javascript" src="phrases.json"></script> -->
+    <script type="text/javascript" src="scripts/hangman.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,50 @@
+
+main.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.skill {
+    display: inline-block;
+    width: 94%;
+    margin: 1% 3%;
+    border: 1px solid steelblue;
+    padding-top: 45%;
+    padding-bottom: 2.5%;
+    padding-left: 2%;
+    background-color: #4881ea;
+    cursor: pointer;
+    text-align: left;
+    box-shadow: 0 0 16px 1px steelblue inset;
+    border-radius: 15px;
+}
+
+.hangman {
+    background-image: url("../images/HangmanGameThumb.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.number {
+    background-image: url("../images/ThinkOfANumberGameThumb.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+@media screen and (min-width: 800px) {
+    main.main {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .skill {
+        width: 41%;
+        padding-top: 21%;    /* Fix aspect ratio for images */
+    }
+}

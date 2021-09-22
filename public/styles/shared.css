@@ -1,0 +1,150 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #24435c;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+    a.currentPage {
+        text-decoration: underline;
+    }
+
+html {
+    overflow-x: hidden;
+    background: #cce6ff;
+    font-size: 13px;
+}
+
+header {
+    height: 80px;
+    line-height: 80px;
+    background: #b3d9ff;
+    background-image: url("../images/snow.png");
+    border-bottom: 1px solid steelblue;
+    z-index: 9; /* Ensure header remains on top of nav when screen width is smaller */
+}
+    article.logo {
+        width: 80px;
+    }
+    article.title {
+        width: auto;
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+    h2.title {
+        display: inline-block;
+        font-size: 130%;
+        line-height: 70px;
+        font-weight: 100;
+        margin: -5px 0 0 0 !important;
+        white-space: nowrap;
+    }
+    article.pageTitle {
+        margin: 0 auto !important;
+    }
+
+nav {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid steelblue;
+    background: #b3d9ff;
+    background-image: url("../images/snow.png");
+    font-size: 110%;
+}
+    a.navLink:hover {
+        color: white;
+    }
+
+.main {
+    margin-bottom: 2%;
+}
+
+footer {
+    background: #99ccff;
+    background-image: url("../images/snow.png");
+    border: 1px solid steelblue;
+}
+    .copyright {
+        display: block;
+        padding-bottom: 1%;
+    }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+}
+    .grid-container > * {
+        text-align: center;
+        font-size: 100%;
+    }
+
+.flex-container-header {
+    display: flex;
+}
+
+.flex-container-footer {
+    display: flex;
+    flex-direction: column; /* column for mobile, row for desktop */
+}
+
+.flex-container-footer > article.footerItem {
+    width: auto;
+    margin: 1% auto;
+    text-align: center;
+    line-height: 100%;
+    font-size: 100%;
+}
+
+.socialMedia {
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+@media screen and (min-width: 550px) {
+    header {
+        grid-column: 1 / 3;
+    }
+
+    nav {
+        grid-column: 3 / 5;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .main {
+        grid-column: 1 / 5;
+    }
+
+    footer {
+        grid-column: 1 / 5;
+    }
+
+    article.pageTitle {
+        grid-column: 1 / 5;
+    }
+
+    .grid-container {
+        grid-template-columns: 16.5% 16.5% auto 33%;
+    }
+
+    .flex-container-footer {
+        flex-direction: row;
+    }
+
+    .flex-container-footer > article.footerItem {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 2.3vmin;
+    }
+}

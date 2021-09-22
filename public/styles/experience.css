@@ -1,0 +1,92 @@
+
+.education {
+    display: inline-block;
+    border: 1px solid steelblue;
+    width: 95%;
+    margin: 0 2% 1% 2% !important;
+    box-shadow: 0 0 16px 1px steelblue inset;
+    border-radius: 15px;
+}
+    article.uni {
+        width: 90%;
+        border: 1px solid steelblue;
+        margin: 1% 5%;
+        box-shadow: 0 0 12px 1px steelblue;
+    }
+    div.uniLogoContainer {
+        width: 35%;
+    }
+    div.uniInfoContainer {
+        width: 65%;
+    }
+    picture.uniLogoContainer {
+        display: inline-block;
+        margin: auto !important;
+    }
+    .uniLogo {
+        max-width: 80%;
+        height: auto;
+    }
+    article.uni {
+        display: flex;
+        flex-direction: row;
+    }
+    article.uni > div {
+        margin: auto;
+        text-align: center;
+        line-height: 100%;
+        font-size: 100%;
+    }
+
+.tech {
+    display: inline-block;
+    border: 1px solid steelblue;
+}
+    section.tech {
+        box-shadow: 0 0 16px 1px steelblue inset;
+        border-radius: 15px;
+        width: 95%;
+        margin: 0 2% 1% 2% !important;
+    }
+    article.tech {
+        box-shadow: 0 0 12px 1px steelblue;
+        width: 90%;
+        margin: 1% 5%;
+        text-align: left;
+    }
+    .techLogo {
+        width: 30px;
+        height: 30px;
+        margin: 1%;
+    }
+
+main.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 800px) {
+    .education {
+        width: 45%;
+        margin: 1%;
+    }
+
+    section.tech, article.tech {
+        width: 45%;
+        margin: 1%;
+    }
+
+    .uniLogo {
+        width: 80px;
+        height: 80px;
+    }
+
+    main.main {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

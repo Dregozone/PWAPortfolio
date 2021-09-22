@@ -1,0 +1,53 @@
+select, input, textarea, button {
+    width: 90%;
+    margin: 1% 5%;
+}
+    input::placeholder {
+        text-align: center;
+    }
+
+select {
+    text-align: center;
+    text-align-last: center;
+}
+
+.grid-container-contact-form {
+    margin: 0 5%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto;
+}
+    .grid-container-contact-form > * {
+        text-align: center;
+        font-size: 100%;
+        padding: 2% 0;
+    }
+
+.label {
+    grid-column: 1 / 2;
+}
+
+.ui {
+    grid-column: 2 / 5;
+}
+
+.clear {
+    grid-column: 2 / 3;
+}
+
+.submit {
+    grid-column: 3 / 5;
+}
+
+.note {
+    text-align: center;
+    margin: 1% auto;
+}
+
+@media screen and (min-width: 550px) {
+    .grid-container-contact-form {
+        width: 70%;
+        margin: 0 15%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}

@@ -1,0 +1,111 @@
+main.main {
+    display: block;
+}
+
+.rulesTitle {
+    width: 94%;
+    float: left;
+}
+
+.rulesClose {
+    width: 5%;
+    float: right;
+    cursor: pointer;
+}
+
+.game {
+    display: block;
+    margin: 0 2vw;
+    width: 96vw;
+    height: 90vh;
+    padding: 1vw 0;
+}
+    .images {
+        display: block;
+    }
+    .rules {
+        display: block;
+    }
+    .guesses {
+        display: block;
+    }
+
+.gameStage {
+    margin: 1.5% auto;
+    border: 1px solid darkslategrey;
+    max-height: 100%; /* Fit to game size */
+    max-width: 96%;
+}
+
+.blocker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.7;
+    z-index: 11;
+    visibility: hidden;
+}
+
+.popup {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: auto;
+    border: 1px solid steelblue;
+    border-radius: 10px;
+    background: #cce6ff;
+    padding: 0.4% 3%;
+    z-index: 12;
+    visibility: hidden;
+}
+
+.actionButton {
+    background: aliceblue;
+    border: 1px solid royalblue;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1.5% 0;
+    padding: 1%;
+}
+
+.space {
+    display: inline-block;
+    padding: 0 1%; /* simulate a space to display on hangman phrase between dashed words */
+}
+
+
+section.highscores {
+    display: block;
+    margin: 3% 30%;
+    width: 40%;
+    font-size: 90%;
+}
+    table.highscores {
+        width: 100%;
+        border: 1px solid darkslategrey;
+    }
+
+@media screen and (min-width: 800px) {
+    main.main {
+        height: 80vh;
+    }
+
+    .game {
+        margin: 0 2%;
+        width: 96%;
+        height: 100%;
+        display: grid;
+        grid-gap: 1%;
+        grid-template: 5vh 70vh / 30% 70%;
+        padding: 1% 0;
+    }
+
+    .images {
+        grid-row: 1 / 3;
+        height: 80vh;
+    }
+}

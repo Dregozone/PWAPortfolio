@@ -1,0 +1,44 @@
+fieldset {
+    border: 1px solid black;
+}
+
+legend {
+    padding: 0 1%;
+}
+
+.input {
+    display: inline-block;
+    margin: 2% 0;
+    width: 20%;
+}
+
+button {
+    border: double black 3px;
+    padding: 1.5% 2%;
+}
+    .guess {
+        float: left;
+    }
+    .restart {
+        float: right;
+    }
+
+section.form {
+    display: block;
+    margin: 1% 5%;
+    width: 90%;
+    text-align: left;
+}
+
+section.message {
+    display: block;
+    margin: 1% 5.2%;
+    width: 89.5%;
+    border: 1px solid black;
+    padding: 1.5% 0;
+}
+
+section.messagePart {
+    color: inherit;
+    margin: 1% 0;
+}

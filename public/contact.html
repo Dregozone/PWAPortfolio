@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Contact - Andreas Learmonth Portfolio</title>
+
+        <meta name="description" content="Free Web tutorials" />
+        <meta name="keywords" content="andreas,learmonth,portfolio,contact,contacts,developer,software,html,css,javascript" />
+        <meta name="author" content="Andreas Learmonth" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/webmanifest.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+
+        <meta name="msapplication-TileColor" content="#2b5797" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- Custom web font -->
+        <link href="styles/roboto.css" rel="stylesheet" />
+
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="styles/shared.css" />
+        <link rel="stylesheet" type="text/css" href="styles/contact.css" />
+    </head>
+    <body>
+
+        <section class="grid-container">
+            <header>
+                <section class="flex-container-header">
+                    <article class="logo">
+                        <picture>
+                            <source srcset="Logo.webp" class="logo">
+                            <img src="Logo.jpg" alt="Logo" class="logo">
+                        </picture>
+                    </article>
+
+                    <article class="title">
+                        <h2 class="title">
+                            Andreas Learmonth
+                        </h2>
+                    </article>
+                </section>
+            </header>
+
+            <nav>
+                <a href="index.html"        class="navLink">                Home        </a> |
+                <a href="experience.html"   class="navLink">                Experience  </a> |
+                <a href="skills.html"       class="navLink">                Skills      </a> |
+                <a href="contact.html"      class="navLink currentPage">    Contact     </a>
+            </nav>
+
+            <article class="pageTitle">
+                <h2 class="pageTitle">
+                    Contact me
+                </h2>
+            </article>
+
+            <section class="main">
+                <form method="post" onsubmit="event.preventDefault(); handleForm(this);">
+                    <section class="grid-container-contact-form">
+                        <article class="label">
+                            <label for="reason">Reason:</label>
+                        </article>
+
+                        <article class="ui">
+                            <select name="reason" id="reason" tabindex="1" autofocus>
+                                <option value="none">       -- Please enter a reason -- </option>
+                                <option value="job">        Job opportunity             </option>
+                                <option value="general">    General enquiry             </option>
+                            </select>
+                        </article>
+
+                        <article class="label">
+                            <label>Title:</label>
+                        </article>
+
+                        <article>
+                            <input type="radio" id="titleMr" name="title" value="Mr" tabindex="2" />
+                            <label for="titleMr">Mr</label>
+                        </article>
+
+                        <article>
+                            <input type="radio" id="titleMrs" name="title" value="Mrs" />
+                            <label for="titleMrs">Mrs</label>
+                        </article>
+
+                        <article>
+                            <input type="radio" id="titleOther" name="title" value="Other" />
+                            <label for="titleOther">Other</label>
+                        </article>
+
+                        <article class="label">
+                            <label for="name">(*) Name:</label>
+                        </article>
+
+                        <article class="ui">
+                            <input type="text" name="name" id="name" placeholder="Name" tabindex="3" required />
+                        </article>
+
+                        <article class="label">
+                            <label for="email">(*) Email:</label>
+                        </article>
+
+                        <article class="ui">
+                            <input type="email" name="email" id="email" placeholder="Email" tabindex="4" required />
+                        </article>
+
+                        <article class="label">
+                            <label for="message">(*) Message:</label>
+                        </article>
+
+                        <article class="ui">
+                            <textarea id="message" name="message" tabindex="5" required></textarea>
+                        </article>
+
+                        <article class="clear">
+                            <button onclick="resetForm();" tabindex="6">Clear</button>
+                        </article>
+
+                        <article class="submit">
+                            <button tabindex="7">Submit</button>
+                        </article>
+                    </section>
+                </form>
+
+                <article class="note">
+                    Please note fields marked with (*) are required.
+                </article>
+            </section>
+
+            <footer>
+                <section class="flex-container-footer">
+                    <article class="footerItem">
+                        Email:
+                        <a href="mailto:aclearmonth@gmail.com">
+                            aclearmonth@gmail.com
+                        </a>
+                    </article>
+                    <article class="footerItem">
+                        Phone:
+                        <a href="tel:00447850996371">
+                            07850 996371
+                        </a>
+                    </article>
+                    <article class="footerItem">
+                        <!-- [Social Media] -->
+                        <a href="https://www.facebook.com/anders.learmonth" target="_blank" rel="noreferrer">
+                            <picture>
+                                <source srcset="images/facebook.jpg" class="socialMedia">
+                                <img src="images/facebook.jpg" alt="Facebook" class="socialMedia">
+                            </picture>
+                        </a>
+
+                        <a href="https://www.instagram.com/dregozone/" target="_blank" rel="noreferrer">
+                            <picture>
+                                <source srcset="images/instagram.jpg" class="socialMedia">
+                                <img src="images/instagram.jpg" alt="Instagram" class="socialMedia">
+                            </picture>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/andreas-learmonth-982318a1/" target="_blank" rel="noreferrer">
+                            <picture>
+                                <source srcset="images/linkedin.jpg" class="socialMedia">
+                                <img src="images/linkedin.jpg" alt="LinkedIn" class="socialMedia">
+                            </picture>
+                        </a>
+                    </article>
+                </section>
+
+                <section class="copyright">
+                    &copy; Copyright 2019
+                </section>
+            </footer>
+        </section>
+
+        <script>
+            //check whether browser support service workers
+            if ('serviceWorker' in navigator) {
+                //wait until page loaded to avoid delaying rendering
+                window.addEventListener('load', function() {
+                    //register service worker
+                    navigator.serviceWorker.register('serviceworker.js').then(
+                        function(registration) {
+                            console.log('Service worker registration successful',
+                                registration);
+                        },
+                        function(err) {
+                            console.log('Service worker registration failed', err);
+                        });
+                });
+            }
+        </script>
+
+        <script type="text/javascript" src="scripts/contact.js"></script>
+    </body>
+</html>

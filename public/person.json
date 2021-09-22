@@ -1,0 +1,14 @@
+{
+  "Name" : "Eric Smith",
+  "Address" : {
+    "Building" : "Mellor Building",
+    "Street" : "College Road",
+    "Town" : "S-O-T"
+  },
+  "Age" : "34",
+  "PhoneNumbers" : [
+    { "Location" : "Home", "Number" : "017853523417" },
+    { "Location" : "Work", "Number" : "01782687234" },
+    { "Location" : "Mobile", "Number" : "07989687234" }
+  ]
+}
